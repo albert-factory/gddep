@@ -1,7 +1,7 @@
 ## 命令列表
 ### 工作区相关
 - gddep work set <_path>
-- gddep work echo
+- gddep work #打印信息
 - gddep work quit
 
 ### 工件创建相关
@@ -29,15 +29,20 @@
 
 ### 本地仓库管理
 - gddep repo local <_path>
-- gddep repo fetch
+- gddep repo update
 - gddep repo add <remote_repo_id> <remote_repo_url>
 - gddep repo remove <remote_repo_id>
-- gddep repo info
+- gddep repo #打印信息
 
 ### 远程仓库管理
+- gddep remote init <_name> <_manager> <_path>
+- gddep remote set <_path> 
+- gddep remote #打印信息
 - gddep remote publish
 - gddep remote add addon <_path_gddep.yml>
 - gddep remote add reson <_path_gddep.yml>
+- gddep remote remove addon <group:id>
+- gddep remote remove reson <group:id>
 
 ## 项目结构列表
 ### 工件结构addon
@@ -180,6 +185,7 @@ repo:
 gddep: v1.0
 repo:
     manager: natsufumij
+    name: repo_name
     publish: "202601181115"
 ```
 
