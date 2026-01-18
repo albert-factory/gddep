@@ -26,6 +26,7 @@
 - gddep artifact search <_name>
 - gddep artifact avail <group:id:version>
 - gddep artifact tree <group:id:version>
+- gddep artifact build #打包当前工件
 
 ### 本地仓库管理
 - gddep repo local <_path>
