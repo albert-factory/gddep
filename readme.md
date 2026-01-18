@@ -137,7 +137,7 @@ artifact:
     type: addon|reson
     author: natsufumij
     arch: gdscript #该项目使用的语言
-    platform: 4.4+ #支持的godot引擎版本    
+    platform: 4.4+ #支持的godot引擎版本 
     info: "This is artifact Infos.."
     fetch: 
         - files://somepath
